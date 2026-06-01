@@ -32,6 +32,3 @@
     <BenefitGrid />
   </div>
 </section>
-
-
-<CTA />
