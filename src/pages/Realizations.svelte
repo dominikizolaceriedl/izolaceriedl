@@ -7,7 +7,7 @@
   import { reveal } from '../lib/reveal.js';
 </script>
 
-<PageHero eyebrow="Reference" title="Naše <mark>realizace</mark>" text="Ukázky hotových podlahových skladeb, příprav pro betonáž a detailů izolací." image="/images/realizace-room-2.webp" />
+<PageHero eyebrow="Reference" title="Naše <mark>realizace</mark>" text="Ukázky hotových podlahových skladeb, příprav pro betonáž a detailů izolací." image="/images/realizace-room-2.jpeg" />
 
 <section class="section container">
   <div class="filter-pills" use:reveal>
