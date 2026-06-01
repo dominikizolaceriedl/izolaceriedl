@@ -5,13 +5,7 @@
 
 <footer class="footer">
   <div class="container footer-grid">
-    <div class="footer-brand">
-      <img src="/images/logo.webp" alt="Izolace Riedl" />
-      <p>Specializujeme se na realizaci podlahových izolací pro tepelný komfort, akustický klid a dlouhou životnost podlah.</p>
-      <div class="socials"><span>IG</span><span>FB</span><strong>{company.instagram}</strong></div>
     </div>
-
-
   <div class="footer-bottom container">
     <span>© 2026 Izolace Riedl. Všechna práva vyhrazena.</span>
     <span>Zásady ochrany osobních údajů | Cookies</span>

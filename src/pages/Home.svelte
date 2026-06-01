@@ -33,31 +33,5 @@
   </div>
 </section>
 
-<section class="section container split-section">
-  <div use:reveal>
-    <SectionTitle align="left" eyebrow="Jak pracujeme" title="Od konzultace až po připravenou podlahu" text="Každý detail kontrolujeme tak, aby na následující vrstvu navazoval bez komplikací." />
-  </div>
-  <ProcessSteps />
-</section>
-
-<section class="section container">
-  <SectionTitle eyebrow="Vybrané realizace" title="Podívejte se na ukázky práce" text="Fotografie z reálných zakázek a příprav podlahových skladeb." />
-  <div class="project-grid compact-grid">
-    {#each projects as project, i}
-      <ProjectCard {project} delay={i * 90}/>
-    {/each}
-  </div>
-</section>
 
 <CTA />
-
-<section class="section container contact-strip" use:reveal>
-  <div>
-    <h2>Máte projekt?</h2>
-    <p>Ozvěte se nám. Rádi vám poradíme, jaký typ izolace bude pro vaši stavbu nejvhodnější.</p>
-  </div>
-  <div>
-    <a href="tel:+420731700182">{company.phone}</a>
-    <a href="mailto:{company.email}">{company.email}</a>
-  </div>
-</section>
