@@ -33,7 +33,7 @@
     <h2>Kde působíme</h2>
     <div class="map-visual">
       <span>Praha</span>
-      <p>Praha a Středočeský kraj<br/>Možnost realizací po celé ČR</p>
+      <p>Praha a Středočeský, Jihočeský, Plzeňský kraj<br/>Možnost realizací po celé ČR</p>
     </div>
   </div>
 </section>
