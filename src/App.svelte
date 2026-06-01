@@ -214,8 +214,9 @@
   <section id="realizace" class="process section-dark">
     <div class="section-heading center inverse">
       <p class="eyebrow">Jak službu realizujeme</p>
-      <h2>Profesionální postup, na který se můžete spolehnout</h2>
+      <h2>Profesionální postup , na který se můžete spolehnout</h2>
     </div>
+
 
     <div class="process-grid">
       {#each process as step, i}
