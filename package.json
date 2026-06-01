@@ -1,17 +1,16 @@
 {
   "name": "izolace-riedl-svelte5-upgrade",
+  "private": true,
   "version": "2.0.0",
   "type": "module",
-  "private": true,
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host 0.0.0.0"
   },
-  "dependencies": {
-    "@sveltejs/vite-plugin-svelte": "^5.0.0",
-    "svelte": "^5.0.0",
-    "vite": "^6.0.0"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "vite": "latest",
+    "svelte": "latest"
+  }
 }
