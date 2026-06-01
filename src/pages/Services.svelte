@@ -16,7 +16,7 @@
   ];
 </script>
 
-<PageHero eyebrow="Služby" title="Naše <mark>služby</mark>" text="Kompletní řešení podlahových izolací pro rodinné domy, byty, rekonstrukce i novostavby." image="/images/realizace-room-1.webp" />
+<PageHero eyebrow="Služby" title="Naše <mark>služby</mark>" text="Kompletní řešení podlahových izolací pro rodinné domy, byty, rekonstrukce i novostavby." image="/images/realizace-room-1.jpeg" />
 
 <section class="section container">
   <div class="services-grid full">
