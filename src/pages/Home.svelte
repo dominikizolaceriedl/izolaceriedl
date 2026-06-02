@@ -3,11 +3,8 @@
   import SectionTitle from '../components/SectionTitle.svelte';
   import ServiceCard from '../components/ServiceCard.svelte';
   import BenefitGrid from '../components/BenefitGrid.svelte';
-  import ProcessSteps from '../components/ProcessSteps.svelte';
-  import ProjectCard from '../components/ProjectCard.svelte';
-  import CTA from '../components/CTA.svelte';
-  import { services, projects, company } from '../lib/data.js';
-  import { reveal } from '../lib/reveal.js';
+
+  import { services } from '../lib/data.js';
 </script>
 
 <PageHero
@@ -18,17 +15,27 @@
 />
 
 <section class="section container">
-  <SectionTitle eyebrow="Naše služby" title="Kompletní řešení podlahových izolací" text="Od výběru materiálu až po precizní pokládku a přípravu pro betonáž." />
+  <SectionTitle
+    eyebrow="Naše služby"
+    title="Kompletní řešení podlahových izolací"
+    text="Od výběru materiálu až po precizní pokládku a přípravu pro betonáž."
+  />
+
   <div class="services-grid">
     {#each services as service, i}
-      <ServiceCard {service} delay={i * 90}/>
+      <ServiceCard {service} index={i} delay={i * 90} />
     {/each}
   </div>
 </section>
 
 <section class="dark-section">
   <div class="container">
-    <SectionTitle eyebrow="Proč si vybrat nás" title="Výhody, které pocítíte každý den" text="Správně navržená a položená izolace zvyšuje komfort bydlení a chrání konstrukce." />
+    <SectionTitle
+      eyebrow="Proč si vybrat nás"
+      title="Výhody, které pocítíte každý den"
+      text="Správně navržená a položená izolace zvyšuje komfort bydlení a chrání konstrukce."
+    />
+
     <BenefitGrid />
   </div>
 </section>
