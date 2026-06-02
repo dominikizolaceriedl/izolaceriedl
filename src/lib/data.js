@@ -18,27 +18,24 @@ export const nav = [
 
 export const services = [
   {
-    slug: 'podlahovy-polystyren-eps',
-    title: 'Podlahový polystyren (EPS)',
+  
     short: 'Základní tepelná izolace podlah, která pomáhá udržet teplo a vytváří pevný podklad pro betonovou vrstvu.',
     image: '/images/relizace-room-1.jpeg',
-    icon: 'cube',
+  
     bullets: ['Tepelná izolace a úspora energií', 'Pevnost a stabilita podkladu', 'Nízká nasákavost a dlouhá životnost', 'Ideální pro novostavby i rekonstrukce']
   },
   {
-    slug: 'mineralni-vata',
-    title: 'Minerální vata',
+
     short: 'Řešení pro lepší akustiku, kročejový útlum a vyšší komfort bydlení v bytech i rodinných domech.',
     image: '/images/realizace-room-2.jpeg',
-    icon: 'waves',
+   
     bullets: ['Kročejová izolace a tlumení hluku', 'Tepelná izolace pro úsporu tepla', 'Akustický komfort pro klidnější bydlení', 'Nehořlavý a odolný izolační materiál']
   },
   {
-    slug: 'dilatacni-paska',
-    title: 'Dilatační páska',
+   
     short: 'Okrajový prvek kolem stěn, který chrání podlahu, umožňuje dilataci a snižuje riziko vzniku trhlin.',
     image: '/images/realizace-room-4.jpeg',
-    icon: 'tape',
+  
     bullets: ['Odděluje podlahu od svislých konstrukcí', 'Umožňuje podlaze přirozeně pracovat', 'Zabraňuje praskání a vzniku trhlin', 'Chrání konstrukce a prodlužuje životnost']
   }
 ];
