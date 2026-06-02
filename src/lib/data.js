@@ -20,16 +20,16 @@ export const services = [
   {
   
     short: 'Základní tepelná izolace podlah, která pomáhá udržet teplo a vytváří pevný podklad pro betonovou vrstvu.',
-    image: '/images/realizace-room-1.jpeg',
+    image: '/images/realizace-room-3.jpeg',
   
     bullets: ['Tepelná izolace a úspora energií', 'Pevnost a stabilita podkladu', 'Nízká nasákavost a dlouhá životnost', 'Ideální pro novostavby i rekonstrukce']
   },
   {
 
     short: 'Řešení pro lepší akustiku, kročejový útlum a vyšší komfort bydlení v bytech i rodinných domech.',
-    image: '/images/realizace-room-2.jpeg',
+    image: '/images/realizace-room-5.png',
    
-    bullets: ['Kročejová izolace a tlumení hluku', 'Tepelná izolace pro úsporu tepla', 'Akustický komfort pro klidnější bydlení', 'Nehořlavý a odolný izolační materiál']
+    bullets: ['Tlumení hluku', 'Tepelná izolace pro úsporu tepla', 'Akustický komfort pro klidnější bydlení', 'Nehořlavý a odolný izolační materiál']
   },
   {
    
