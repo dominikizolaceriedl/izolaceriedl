@@ -59,8 +59,8 @@ export const process = [
 export const projects = [
   { title: 'Podlahová izolace novostavby', location: 'Praha', type: 'EPS', image: '/images/realizace-room-1.jpeg', text: 'Pokládka tepelné izolace v obytné části domu.' },
   { title: 'Příprava podkladu pro betonáž', location: 'Středočeský kraj', type: 'EPS', image: '/images/realizace-room-2.jpeg', text: 'Rovinná skladba podlahy a kontrola návazností.' },
-  { title: 'Izolace bytu před potěrem', location: 'Praha', type: 'Minerální vata', image: '/images/realizace-room-3.jpeg', text: 'Důraz na akustiku a čisté provedení detailů.' },
-  { title: 'Rekonstrukce podlahové skladby', location: 'Beroun', type: 'Dilatace', image: '/images/realizace-room-4.jpeg', text: 'Doplnění okrajových pásek a příprava pro potěr.' }
+  { title: 'Izolace bytu před potěrem', location: 'Praha', type: 'EPS', image: '/images/realizace-room-3.jpeg', text: 'Důraz na akustiku a čisté provedení detailů.' },
+  { title: 'Rekonstrukce podlahové skladby', location: 'Beroun', type: 'EPS', image: '/images/realizace-room-4.jpeg', text: 'Doplnění okrajových pásek a příprava pro potěr.' }
 ];
 
 export const faqs = [
