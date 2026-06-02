@@ -42,7 +42,7 @@
       </iframe>
 
       <div class="map-radius"></div>
-      <span class="map-label">Praha a okolí</span>
+      <span class="map-label">Hlavní oblast</span>
     </div>
 
     <div class="region-info">
@@ -76,21 +76,21 @@
     overflow: hidden;
   }
 
-  /* Okruh působnosti - umístěný přibližně nad Prahou/Středními Čechami */
+  /* Okruh působnosti - zvětšen a posunut níže, aby pokryl jižní Čechy */
   .map-radius {
     position: absolute;
-    top: 45%;
+    top: 52%;
     left: 40%;
     transform: translate(-50%, -50%);
-    width: 140px;
-    height: 140px;
-    background: rgba(255,196,0,0.15);
-    border: 1px solid rgba(255,196,0,0.4);
+    width: 220px;
+    height: 220px;
+    background: rgba(255,196,0,0.13);
+    border: 1px solid rgba(255,196,0,0.35);
     border-radius: 50%;
     z-index: 2;
   }
 
-  /* Středový bod (Praha) */
+  /* Středový bod */
   .map-radius::after {
     content: '';
     position: absolute;
@@ -107,8 +107,8 @@
 
   .map-label {
     position: absolute;
-    top: 45%;
-    left: calc(40% + 80px);
+    top: 52%;
+    left: calc(40% + 120px);
     transform: translateY(-50%);
     background: #fff;
     padding: 6px 12px;
@@ -119,6 +119,7 @@
     box-shadow: 0 4px 14px rgba(0,0,0,0.06);
     border: 1px solid var(--line);
     z-index: 3;
+    white-space: nowrap;
   }
 
   .region-info {
