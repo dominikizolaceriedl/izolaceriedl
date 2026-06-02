@@ -30,7 +30,7 @@
 
 <header class="site-header">
   <a class="brand" href="/" aria-label="{company.name} - úvod" onclick={close}>
-    <img src="/images/logo.webp" alt="Logo Izolace Riedl" />
+    <img src="/images/logo.png" alt="Logo Izolace Riedl" />
   </a>
 
   <nav class:open aria-label="Hlavní navigace">
