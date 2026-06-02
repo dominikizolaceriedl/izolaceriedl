@@ -4,7 +4,7 @@ export const company = {
   phone: '+420 731 700 182',
   email: 'izolaceriedl@gmail.com',
   instagram: '@IzolaceRiedl',
-  region: 'Praha a Středočeský kraj',
+  region: 'Jihočeský, Plzeňský, Středočeský a Praha',
   availability: 'Možnost realizací po celé České republice'
 };
 
