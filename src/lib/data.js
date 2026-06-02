@@ -67,5 +67,5 @@ export const faqs = [
   { q: 'Jakou izolaci zvolit pod betonovou podlahu?', a: 'Záleží na skladbě podlahy, požadované výšce, zatížení a požadavcích na akustiku. Nejčastěji se používá podlahový EPS, případně minerální vata pro lepší kročejový útlum.' },
   { q: 'Kdy se používá dilatační páska?', a: 'Dilatační páska se používá kolem stěn a svislých konstrukcí před betonáží nebo litím potěru. Odděluje podlahu od konstrukcí a pomáhá předcházet praskání.' },
   { q: 'Děláte i přípravu podkladu pro betonáž?', a: 'Ano. Součástí práce může být příprava skladby, pokládka izolace, řešení detailů kolem stěn, prostupů a připravení podlahy pro další technologický krok.' },
-  { q: 'Působíte mimo Prahu a Středočeský kraj?', a: 'Primárně působíme v Praze a Středočeském kraji, ale podle rozsahu zakázky je možná realizace po celé České republice.' }
+  { q: 'Působíte mimo Prahu a Středočeský kraj?', a: 'Primárně působíme Plzeňském, Jihočeském, Středočeském kraji a Praze , ale podle rozsahu zakázky je možná realizace po celé České republice.' }
 ];
