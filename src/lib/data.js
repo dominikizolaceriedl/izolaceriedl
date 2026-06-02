@@ -27,7 +27,7 @@ export const services = [
   {
 
     short: 'Řešení pro lepší akustiku, kročejový útlum a vyšší komfort bydlení v bytech i rodinných domech.',
-    image: '/images/realizace-room-5.png',
+    image: '/images/relizace-room-5.png',
    
     bullets: ['Tlumení hluku', 'Tepelná izolace pro úsporu tepla', 'Akustický komfort pro klidnější bydlení', 'Nehořlavý a odolný izolační materiál']
   },
