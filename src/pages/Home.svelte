@@ -11,7 +11,7 @@
   eyebrow="Pro tepelný komfort a zvukový klid"
   title="Realizace <mark>podlahových</mark> izolací"
   text="Kvalitní izolace podlahy pro teplo, komfort, úsporu energií a dlouhou životnost celé podlahy."
-  image="/images/header.jpeg"
+  image="/images/header.png"
 />
 
 <section class="section container">
