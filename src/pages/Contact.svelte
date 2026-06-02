@@ -7,7 +7,7 @@
   import { reveal } from '../lib/reveal.js';
 </script>
 
-<PageHero eyebrow="Kontakt" title="Kontaktujte <mark>nás</mark>" text="Plánujete zateplení podlahy nebo si nejste jistí skladbou? Ozvěte se nám a společně najdeme vhodné řešení." image="/images/realizace-room-4.webp" />
+<PageHero eyebrow="Kontakt" title="Kontaktujte <mark>nás</mark>" text="Plánujete zateplení podlahy nebo si nejste jistí skladbou? Ozvěte se nám a společně najdeme vhodné řešení." image="/images/realizace-room-4.jpeg" />
 
 <section class="section container contact-layout">
   <aside class="contact-card" use:reveal>

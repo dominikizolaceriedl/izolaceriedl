@@ -14,7 +14,7 @@
   ];
 </script>
 
-<PageHero eyebrow="O nás" title="Proč právě <mark>Izolace Riedl</mark>" text="Specializujeme se na podlahové izolace s důrazem na dlouhou životnost, tepelný komfort a akustický klid." image="/images/realizace-room-3.webp" />
+<PageHero eyebrow="O nás" title="Proč právě <mark>Izolace Riedl</mark>" text="Specializujeme se na podlahové izolace s důrazem na dlouhou životnost, tepelný komfort a akustický klid." image="/images/header.png" />
 
 <section class="section container">
   <SectionTitle title="Na čem si zakládáme" />
