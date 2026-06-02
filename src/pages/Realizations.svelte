@@ -14,7 +14,7 @@
     <button>Vše</button><button>EPS</button><button>Minerální vata</button><button>Dilatační páska</button>
   </div>
   <div class="project-grid">
-    {#each [...projects, ...projects] as project, i}
+    {#each projects as project, i}
       <ProjectCard {project} delay={(i % 4) * 80}/>
     {/each}
   </div>
