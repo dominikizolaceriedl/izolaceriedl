@@ -27,51 +27,146 @@
 <section class="section container two-columns">
   <div>
     <h2>Často kladené otázky</h2>
-    <a href="#faq" class="sr-only" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Skočit na FAQ</a>
     <FAQ />
   </div>
   <div class="map-card" use:reveal>
     <h2>Kde působíme</h2>
-    <div class="map-visual" style="padding-top: 20px;">
-      
-      <svg viewBox="0 0 440 260" style="width: 100%; max-width: 340px; height: auto; margin-bottom: 70px; position: relative; z-index: 1;" aria-label="Mapa působnosti v České republice">
-        <path d="M 50 110 L 90 60 L 150 50 L 200 65 L 260 55 L 320 60 L 370 80 L 410 110 L 400 160 L 350 200 L 290 190 L 250 215 L 180 195 L 120 215 L 60 180 L 40 140 Z" 
-              fill="rgba(13, 13, 15, 0.04)" 
-              stroke="var(--black)" 
-              stroke-width="2" 
-              stroke-dasharray="4 4" />
-        
-        <circle cx="140" cy="130" r="75" fill="rgba(255, 196, 0, 0.12)" stroke="var(--yellow)" stroke-width="1" stroke-dasharray="2 2" />
+    
+    <div class="pro-map-box">
+      <iframe 
+        title="Mapa působnosti v ČR"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=11.5,48.5,19.0,51.1&layer=mapnik" 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; pointer-events: none; filter: grayscale(1) opacity(0.4) contrast(1.2);"
+        loading="lazy"
+        tabindex="-1">
+      </iframe>
 
-        <g>
-          <circle cx="150" cy="110" r="7" fill="var(--black)" />
-          <circle cx="150" cy="110" r="4" fill="var(--yellow)" />
-          <circle cx="150" cy="110" r="4" fill="none" stroke="var(--yellow)" stroke-width="2">
-            <animate attributeName="r" values="4;20;4" dur="3s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="1;0;1" dur="3s" repeatCount="indefinite"/>
-          </circle>
-        </g>
+      <div class="map-radius"></div>
+      <span class="map-label">Praha a okolí</span>
+    </div>
 
-        <g>
-          <circle cx="90" cy="130" r="5" fill="var(--black)" />
-          <circle cx="90" cy="130" r="3" fill="var(--yellow-2)" />
-          <circle cx="90" cy="130" r="3" fill="none" stroke="var(--yellow-2)" stroke-width="1.5">
-            <animate attributeName="r" values="3;14;3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="1;0;1" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-          </circle>
-        </g>
-
-        <g>
-          <circle cx="155" cy="175" r="5" fill="var(--black)" />
-          <circle cx="155" cy="175" r="3" fill="var(--yellow-2)" />
-          <circle cx="155" cy="175" r="3" fill="none" stroke="var(--yellow-2)" stroke-width="1.5">
-            <animate attributeName="r" values="3;14;3" dur="3s" begin="1s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="1;0;1" dur="3s" begin="1s" repeatCount="indefinite"/>
-          </circle>
-        </g>
-      </svg>
-
-      <p>Praha a Středočeský, Jihočeský, Plzeňský kraj<br/>Možnost realizací po celé ČR</p>
+    <div class="region-info">
+      <div class="region-box primary">
+         <Icon name="pin" />
+         <div>
+           <strong>Hlavní oblast působnosti</strong>
+           <p>Praha, Středočeský, Jihočeský a Plzeňský kraj.</p>
+         </div>
+      </div>
+      <div class="region-box secondary">
+         <Icon name="truck" />
+         <div>
+           <strong>Celá ČR</strong>
+           <p>Větší projekty po domluvě realizujeme kdekoli.</p>
+         </div>
+      </div>
     </div>
   </div>
 </section>
+
+<style>
+  /* Nové profi styly pro mapovou sekci */
+  .pro-map-box {
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    height: 240px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+
+  /* Okruh působnosti - umístěný přibližně nad Prahou/Středními Čechami */
+  .map-radius {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    background: rgba(255,196,0,0.15);
+    border: 1px solid rgba(255,196,0,0.4);
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  /* Středový bod (Praha) */
+  .map-radius::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+    background: var(--yellow);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .map-label {
+    position: absolute;
+    top: 45%;
+    left: calc(40% + 80px);
+    transform: translateY(-50%);
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    border: 1px solid var(--line);
+    z-index: 3;
+  }
+
+  .region-info {
+    display: grid;
+    gap: 12px;
+  }
+
+  .region-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .region-box strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .region-box p {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+
+  /* Světlý box pro hlavní regiony */
+  .region-box.primary {
+    background: var(--soft);
+    border: 1px solid var(--line);
+  }
+  .region-box.primary :global(svg) {
+    color: var(--yellow-2);
+  }
+  .region-box.primary p {
+    color: #555;
+  }
+
+  /* Tmavý prémiový box pro celou ČR */
+  .region-box.secondary {
+    background: linear-gradient(135deg, #151515, #080808);
+    color: #fff;
+  }
+  .region-box.secondary :global(svg) {
+    color: var(--yellow);
+  }
+  .region-box.secondary p {
+    color: rgba(255,255,255,.7);
+  }
+</style>
