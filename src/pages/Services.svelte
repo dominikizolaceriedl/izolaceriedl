@@ -27,6 +27,25 @@
 </section>
 
 <section class="section container">
+  <div class="about-card" use:reveal>
+    <div class="icon-badge" style="width: 80px; height: 80px; font-size: 20px; font-weight: 950; border-radius: 20px;">
+      EPS
+    </div>
+    <div>
+      <h2>Podlahové EPS izolace a lití podlah bez komplikací</h2>
+      <p>
+        Při realizaci podlahových izolací z <strong>EPS (pěnového polystyrenu)</strong> dbáme na absolutní přesnost pokládky. Správně připravený podklad je totiž klíčový pro dlouhou životnost a stabilitu celé podlahy. 
+      </p>
+      <p>
+        Abychom vám zajistili stoprocentní výsledek bez starostí, úzce spolupracujeme s profesionály z portálu 
+        <a href="https://liti-betonu.cz" target="_blank" rel="noopener noreferrer" style="color: var(--yellow-2); font-weight: 900; text-decoration: underline;">liti-betonu.cz</a>. 
+        Díky tomuto provázanému partnerství na sebe řemesla dokonale navazují – od precizního vyskládání tepelné i kročejové izolace až po finální lití anhydritových nebo cementových potěrů. Získáte tak kompletní podlahový systém od jednoho sehraného týmu.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
   <SectionTitle title="Pro jaké stavby je služba vhodná" text="Podlahové izolace navrhujeme podle skladby, zatížení a požadovaného komfortu." />
   <div class="suitable-grid">
     {#each suitable as item, i}
