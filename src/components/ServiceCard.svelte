@@ -6,13 +6,13 @@
 
   const images = [
     '/images/realizace-room-1.jpeg',
-    '/images/realizace-room-3.jpg',
+       '/images/relizace-room-5.jpeg',
     '/images/realizace-room-4.jpeg'
   ];
 
   const fallbackImages = [
     '/images/realizace-room-1.jpg',
-    '/images/realizace-room-3.jpeg',
+    '/images/relizace-room-5.jpeg',
     '/images/realizace-room-4.jpg'
   ];
 

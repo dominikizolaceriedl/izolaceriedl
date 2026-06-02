@@ -20,7 +20,7 @@ export const services = [
   {
   
     short: 'Základní tepelná izolace podlah, která pomáhá udržet teplo a vytváří pevný podklad pro betonovou vrstvu.',
-    image: '/images/realizace-room-3.jpeg',
+    image: '/images/realizace-room-1.jpeg',
   
     bullets: ['Tepelná izolace a úspora energií', 'Pevnost a stabilita podkladu', 'Nízká nasákavost a dlouhá životnost', 'Ideální pro novostavby i rekonstrukce']
   },
