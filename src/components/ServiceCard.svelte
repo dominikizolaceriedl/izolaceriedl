@@ -4,17 +4,7 @@
 
   let { service, delay = 0, index = 0 } = $props();
 
-  const images = [
-    '/images/realizace-room-1.jpeg',
-       '/images/relizace-room-5.jpeg',
-    '/images/realizace-room-4.jpeg'
-  ];
-
-  const fallbackImages = [
-    '/images/realizace-room-1.jpg',
-    '/images/relizace-room-5.jpeg',
-    '/images/realizace-room-4.jpg'
-  ];
+  const fallbackImage = '/images/realizace-room-1.jpeg';
 
   const titles = [
     'Podlahový EPS',
@@ -43,7 +33,7 @@
     }
 
     img.dataset.fallbackApplied = 'true';
-    img.src = fallbackImages[index] ?? fallbackImages[0];
+    img.src = fallbackImage;
   }
 </script>
 
@@ -54,10 +44,10 @@
 >
   <div class="service-image">
     <img
-      src={images[index] ?? images[0]}
+      src={service.image ?? fallbackImage}
       alt={service.title ?? titles[index]}
       loading="lazy"
-      onerror={handleImageError}
+      on:error={handleImageError}
     />
   </div>
 
